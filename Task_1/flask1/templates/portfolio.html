@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>My portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<style>
+{
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  border: 1px solid #ddd;
+  margin-top: -1px;
+  background-color: #f6f6f6;
+  padding: 12px;
+}
+body {font-size:16px;}
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+</style>
+<body>
+
+<nav class="sidebar   w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+  <div class="w3-container">
+    <h3 class=" "><b>My portfolio</b></h3>
+    <img src="{{url_for('static',filename='vis.jpg')}}" width="100",height="40"  alt="...">
+    <div class="topright"></div>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#home" onclick="close()" class="w3-bar-item w3-button w3-hover-white">Home</a>
+    <a href="#eq" onclick="close()" class="w3-bar-item w3-button w3-hover-white">Education Qualification</a>
+    <a href="#skills" onclick="close()" class="w3-bar-item w3-button w3-hover-white">Techincal Skills</a>
+    <a href="#co" onclick="close()" class="w3-bar-item w3-button w3-hover-white">Co-curricular activites</a>
+    <a href="#as" onclick="close()" class="w3-bar-item w3-button w3-hover-white">Achivements</a>
+    <a href="#pl" onclick="close()" class="w3-bar-item w3-button w3-hover-white">Personal profile</a>
+    <a href="# " onclick="close()" class="w3-bar-item w3-button w3-hover-white">Contact Me:</a>
+    <a href="https://www.linkedin.com/in/vishnu-vardhan-302b67129/"><i class="fa fa-linkedin-square" style="font-size:36px;color:blue"></i></a>
+    <a href="mailto:vishnuvardhan4027@gmail.com"><i class="fa fa-envelope-square" style="font-size:36px;color:red"></i></a>
+    <a href="tel:6304191951"><i class="fa fa-phone" style="font-size:36px"></i></a>
+
+
+
+
+
+  </div>
+</nav>
+
+
+<div id="home"</div>
+
+<div class="main" style="margin-left:340px;margin-right:40px">
+  <div class="w3-container" style="margin-top:80px" id="showcase">
+    <h1 class=" "><b>Carrer Objective</b></h1>
+    <p>Self-motivated and hardworking fresher seeking for an opportunity to work in a challenging environment to prove my skills and utilize my knowledge & intelligence in the growth of the organization.</p>
+  </div>
+
+
+
+  <div id="eq"</div>
+  <h1 class=" "><b>Educationl Qualification</b></h1>
+  <table class="w3-table w3-striped w3-bordered">
+      <tr>
+        <th scope="col">Qualification</th>
+        <th scope="col">College/School</th>
+        <th scope="col">Board/university</th>
+        <th scope="col">Year of completion</th>
+        <th scope="col">CGPA</th>
+      </tr>
+      <tr>
+        <th scope="row">BTech(CSE)</th>
+        <td>Vignan University</td>
+        <td>University</td>
+        <td>2020</td>
+        <td>7.19</td>
+      </tr>
+      <tr>
+        <th scope="w3-row">Intermediate</th>
+        <td>Sri gayatri junior college</td>
+        <td>Board of Intermediate Education</td>
+        <td>2016</td>
+        <td>8.46</td>
+      </tr>
+      <tr>
+        <th scope="row">SSC</th>
+        <td>Sri Chaitanya public school</td>
+        <td>Board of secondary Education</td>
+        <td>2014</td>
+        <td>8.71</td>
+      </tr>
+  </table>
+  <hr>
+  <div id="skills"</div>
+  <div class="w3-container" id="Skills" style="margin-top:75px">
+    <h1><b>Techincal Skills</b></h1>
+    <li class=" ">python</li>
+    <li class=" ">HTML</li>
+    <li class=" ">FLASK</li>
+  <hr>
+  <div id="co">
+  <h1><b>Co-curricular Activites</b></h1>
+    <li  class=" ">Attend a workshop on MOBILE SITE DEVELOPMENT</li>
+
+      <hr>
+      <div id="as">
+      <h1><b>Achivements</b></h1>
+      <li  class=" ">Secured a PET certificate which is held by the Cambridge university</li>
+
+      <hr>
+      <div id="pl">
+      <h1><b>Personal profile</b></h1>
+        <table class="w3-table w3-striped w3-bordered">
+       <tr>
+         <th scope="row">Name</th>
+         <td>P.Vishnu vardhan</td>
+         </tr>
+         <tr>
+           <th scope="row">Father name</th>
+           <td>P.Parameswara rao</td>
+           </tr>
+           <tr>
+             <th scope="row">DOB</th>
+             <td>02-07-1999</td>
+             </tr>
+             <tr>
+               <th scope="row">Languages known</th>
+               <td>English,Telugu</td>
+               </tr>
+               <tr>
+                 <th scope="row">Address</th>
+                 <td>D.no:6-29 , beside venu gopal swamy temple , Pedapalakaluru , Guntur</td>
+                 </tr>
+         </table>
+         <hr>
+         <h1><b>Declaration</b></h1>
+         <li>I here by declare that above details are true as best of my knowledge</li>
+         </div>
+         </div>
+         </div>
+
+
+
+
+
+
+
+
+
+
+    <hr>
+
+</body>
+</html>
